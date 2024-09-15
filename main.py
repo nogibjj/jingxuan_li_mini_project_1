@@ -2,18 +2,26 @@
 Main cli or app entry point
 """
 
-from mylib.calculator import add
+from mylib.lib import *
 import click
 
-#var=1;var=2
-
-@click.command("add")
-@click.argument("a", type=int)
-@click.argument("b", type=int)
-def add_cli(a, b):
-    click.echo(add(a, b))
-
-
+def g_describe(file):
+    g = load_and_preview_data(file)
+    return g
+def save_to_md():
+    with open("test.md","a") as file:
+        file.write("test")
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
-    add_cli()
+    file_path = './Employee.csv'
+    df = g_describe(file_path)
+    save_to_md()
+
+    # Calculate and display summary statistics
+    calculate_summary_statistics(df)
+
+    # Calculate and display descriptive statistics for Age and Salary
+    calculate_descriptive_statistics(df)
+
+    # Plot the Age distribution
+    plot_age_distribution(df)
