@@ -3,7 +3,6 @@
 [![Lint](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/lint.yml)
 [![Test](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/test.yml)
 
-[![CI](https://github.com/nogibjj/ids-706-miniproject-2-jingxuan-li/actions/workflows/CICD.yml/badge.svg)](https://github.com/nogibjj/ids-706-miniproject-2-jingxuan-li/actions/workflows/CICD.yml)
 
 ## Setup with VS Code and .devcontainer
 
@@ -19,7 +18,7 @@ Follow these steps to prepare and use your development environment:
 
 1. **Clone the Repository**:
    ```bash
-   git clone git@github.com:Jourdan0803/ids-706-miniproject-2-jingxuan-li.git
+   git clone git@github.com:Jourdan0803/jingxuan_li_mini_project_1.git
    ```
 
 2. **Open in VS Code**:
