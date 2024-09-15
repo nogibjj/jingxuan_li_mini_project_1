@@ -48,4 +48,22 @@ def plot_age_distribution(df):
     plt.xlabel('Age')
     plt.ylabel('Frequency')
     plt.grid(True)
-    plt.show()
+    # plt.show()
+    plt.savefig("age.png")
+
+# Define a function to plot the gender distribution across departments
+
+def plot_gender_distribution_by_department(df):
+    gender_dept_counts = df.groupby(['Department', 'Gender']).size().unstack()
+    gender_dept_counts.plot(kind='bar', stacked=True, figsize=(10, 6), 
+                            color=['lightblue', 'lightgreen', 'lightcoral'])
+    plt.title('Gender Distribution by Department')
+    plt.xlabel('Department')
+    plt.ylabel('Number of Employees')
+    plt.xticks(rotation=45)
+    plt.grid(True, axis='y', linestyle='--', alpha=0.7)
+    plt.legend(title='Gender')
+    plt.tight_layout()
+    plt.savefig("department.png")
+
+
