@@ -2,8 +2,8 @@
 [![Install](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/install.yml)
 [![Lint](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/lint.yml)
 [![Test](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/test.yml)
-
-
+## link to the introduction video
+https://youtu.be/2pDULgy0pls
 ## Setup with VS Code and .devcontainer
 
 Follow these steps to prepare and use your development environment:
